@@ -98,7 +98,6 @@ namespace Task._28._03._2022
             {
                 Console.WriteLine("Enter the person's name");
                 name = Convert.ToString(Console.ReadLine());
-                throw new ArgumentNullException("But enter the name.");
             }
             catch (Exception ex)
             {
@@ -113,7 +112,6 @@ namespace Task._28._03._2022
             {
                 Console.WriteLine("Enter the person's last name");
                 surname = Convert.ToString(Console.ReadLine());
-                throw new ArgumentNullException("But enter the surname");
             }
             catch (Exception ex)
             {
